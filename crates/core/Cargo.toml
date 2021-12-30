@@ -1,0 +1,10 @@
+[package]
+name = "turbo"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethabi = "^16"
+tokio = "^1"
+web3 = "0.17.0"
+thiserror = "^1"

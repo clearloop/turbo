@@ -1,0 +1,10 @@
+[workspace]
+members = [
+  "crates/cli",
+  "crates/client",
+  "crates/core",
+  "crates/contracts",
+  "crates/contracts/derive",
+  "crates/middleware",
+  "crates/service"
+]

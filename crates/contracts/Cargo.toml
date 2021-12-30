@@ -1,0 +1,14 @@
+[package]
+name = "contracts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hex = "^0.4"
+turbo-abi-derive = { path = "./derive" }
+
+[features]
+default = [ "uniswap" ]
+uniswap = [ "uniswap-v2", "uniswap-v3" ]
+uniswap-v2 = []
+uniswap-v3 = []
